@@ -1,0 +1,21 @@
+#kids,
+#develop,
+#mission {
+  animation: 2s ease-out show forwards;
+  background-color: #222222;
+}
+
+#mission span {
+  color: lightgrey;
+  font-size: 0.8rem;
+
+}
+
+@keyframes show {
+  0% {
+    background-color: #222222;
+  }
+  100% {
+    background-color: var(--color-lightgrey);
+  }
+}

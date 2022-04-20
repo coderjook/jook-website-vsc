@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31127bf5.chunk.css",
+    "main.js": "/static/js/main.35c2adfb.chunk.js",
+    "main.js.map": "/static/js/main.35c2adfb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c01d185.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c01d185.js.map",
+    "static/js/2.3ce2f993.chunk.js": "/static/js/2.3ce2f993.chunk.js",
+    "static/js/2.3ce2f993.chunk.js.map": "/static/js/2.3ce2f993.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.31127bf5.chunk.css.map": "/static/css/main.31127bf5.chunk.css.map",
+    "static/js/2.3ce2f993.chunk.js.LICENSE.txt": "/static/js/2.3ce2f993.chunk.js.LICENSE.txt",
+    "static/media/coderjook-pc.67d43803.png": "/static/media/coderjook-pc.67d43803.png",
+    "static/media/coderjook.css": "/static/media/street.c1a6d997.png",
+    "static/media/jook-1500.499171cf.png": "/static/media/jook-1500.499171cf.png",
+    "static/media/jook-pc.0d764e88.png": "/static/media/jook-pc.0d764e88.png",
+    "static/media/microbit-mip.0be12c76.jpg": "/static/media/microbit-mip.0be12c76.jpg",
+    "static/media/pixel.0a3c6da9.jpg": "/static/media/pixel.0a3c6da9.jpg",
+    "static/media/robot-mind.c0801264.jpg": "/static/media/robot-mind.c0801264.jpg",
+    "static/media/romal-pc.c661facd.png": "/static/media/romal-pc.c661facd.png",
+    "static/media/scratch.ad3ce9c6.jpg": "/static/media/scratch.ad3ce9c6.jpg",
+    "static/media/world.fe34a977.png": "/static/media/world.fe34a977.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c01d185.js",
+    "static/js/2.3ce2f993.chunk.js",
+    "static/css/main.31127bf5.chunk.css",
+    "static/js/main.35c2adfb.chunk.js"
+  ]
+}

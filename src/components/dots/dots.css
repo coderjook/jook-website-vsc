@@ -1,0 +1,151 @@
+.dots {
+    /* border: 2px solid orange; */
+    /* margin: 30px 0; */
+    padding-top:30px;
+    padding-bottom:30px;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+ 
+}
+
+.cube {
+    border: 1px solid white;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20%;
+    left: 20%;
+    transform: rotate(45deg);
+    opacity: 0;
+    animation: cube-moves 6s infinite;
+}
+
+.spinner {
+    position: relative;
+    width: 90px;
+    height: 90px;
+     /* top: 50%; */
+    left: 40%; 
+
+}
+
+.spinner .blob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+
+.spinner .blob.top {
+    top: 0;
+    animation: blob-top 3s infinite ease-in;
+}
+
+.spinner .blob.bottom {
+    top: 100%;
+    animation: blob-bottom 3s infinite ease-in;
+}
+
+.spinner .blob.left {
+    left: 0;
+    animation: blob-left 3s infinite ease-in;
+}
+
+.spinner .move-blob {
+    background: lightgray;
+    top: 0;
+    animation: blob-spinner-mover 3s infinite ease-in;
+}
+
+@keyframes cube-moves {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1;
+        border: 1px solid lightgrey;
+    }
+
+    60% {
+        opacity: 1;
+        border: 1px solid lightgrey;
+    }
+
+    100% {
+        opacity: 0
+    }
+
+}
+
+
+@keyframes blob-bottom {
+
+    25%,
+    50%,
+    75% {
+        top: 50%;
+        left: 100%;
+    }
+
+    100% {
+        top: 0;
+        left: 50%;
+    }
+}
+
+@keyframes blob-left {
+    25% {
+        top: 50%;
+        left: 0;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+        left: 50%;
+    }
+}
+
+@keyframes blob-top {
+    50% {
+        top: 0;
+        left: 50%;
+    }
+
+    75%,
+    100% {
+        top: 50%;
+        left: 0;
+    }
+}
+
+@keyframes blob-spinner-mover {
+
+    0%,
+    100% {
+        top: 0;
+        left: 50%;
+    }
+
+    25% {
+        top: 50%;
+        left: 100%;
+    }
+
+    50% {
+        top: 100%;
+        left: 50%;
+    }
+
+    75% {
+        top: 50%;
+        left: 0;
+    }
+}
