@@ -6,11 +6,12 @@
 }
 
 
-.show .div__text {
-  /* opacity: 0%; */
-  /* animation: 1s ease-out 1s 1 visible forwards; */
+/* .show .div__text {
+  opacity: 0%;
+  animation: 1s ease-out 1s 1 visible forwards;
+  color:red;
   width: 65%;
-}
+} */
 
 
 #featured .div__img {
@@ -29,11 +30,11 @@
 @keyframes visible {
   0% {
     opacity: 0%;
-    width: 65%;
+    
   }
   100% {
     opacity: 100%;
-    width: 65%;
+    
   }
 }
 

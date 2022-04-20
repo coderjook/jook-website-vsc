@@ -32,11 +32,11 @@ export default function Interesse() {
             Mijn <strong>Interesses</strong>
           </h2>
           <p>
-            Zowel in mijn werk als in mijn vrije tijd vind ik het fascinerend om
-            verbanden te ontdekken tussen dingen, mensen en gebeurtenissen en ze aan elkaar te verbinden.
-            Of ik nu systemen aan elkaar koppel voor gegevensuitwisseling, een kindertekening gebruik als basis voor
-            een game in Scratch, of op zoek ga naar de verbinding tussen geest
-            en lichaam....alles staat in relatie tot elkaar.{" "}
+            In mijn werk en vrije tijd vind ik het prachtig om op zoek te gaan naar mogelijke
+            verbanden tussen mensen, dingen en gebeurtenissen om ze vervolgens aan elkaar te verbinden.
+            Of dat nu systemen zijn om aan elkaar te koppelen voor gegevensuitwisseling, kindertekeningen gebruik voor 
+            een game in Scratch, of dat het de zoektocht is naar de verbinding tussen lichaam
+            en geest....alles beweegt constant in relatie tot elkaar. {" "}
             <strong>"Connecting the dots"</strong>
           </p>
           <Dots />

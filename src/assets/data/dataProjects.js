@@ -17,7 +17,7 @@ export const dataProjects = [
     img: coderjookPc,
     title: "scratch website",
     keyword: "coderjook",
-    inhoud:"Als trainer in digitale geletterheid heb ik veel lesmateriaal gemaakt voor Scratch. Deze handleidingen en scripts heb ik gebundeld op een website en worden gebruikt in de Coderdojo Utrecht en in de bibliotheek Utrecht. * Deze website heb ik gemaakt om met te verdiepen in CRUD operations in een database. Hiervoor heb ik firebase gebruikt. Daarnaast heb ik login en beheer gedeelte gemaakt en de basisbeginselen geleerd van Typescript.",
+    inhoud:"Als trainer in digitale geletterheid heb ik veel lesmateriaal gemaakt voor Scratch. Deze handleidingen en scripts heb ik gebundeld op een website en worden gebruikt in de Coderdojo Utrecht en in de bibliotheek Utrecht. * Deze website heb ik gemaakt om me te verdiepen in CRUD operations in een database. Hiervoor heb ik firebase gebruikt. Daarnaast heb ik login en beheer gedeelte gemaakt en de basisbeginselen geleerd van Typescript.",
     techniek:"Framework: React / Typescript ^ Opmaak: html/css flexbox ^ Opslag: Firebase storage en realtime database ^ React: useContext, React-Router-Dom",
     github:"https://github.com/coderjook/scratch-website.git",
     website:"https://scratch-tutorials.netlify.app/"
@@ -28,8 +28,8 @@ export const dataProjects = [
     keyword: "jook",
     inhoud:"Met de inhoud van deze website laat ik zien wie ik ben en waar mijn interesses liggen. * ik heb deze website gemaakt om me te verdiepen in css, positionering, responsive layout en css animaties en transitions.",
     techniek:"Framework: React ^ Opmaak: html / css - transition, animation ^ Componenten: slider, caroussel ^ React component: EmailJs",
-    github:"https://github.com/coderjook/jook-website.git",
-    website:"https://21mk8q.csb.app/"
+    github:"https://github.com/coderjook/jook-website-vsc",
+    website:"	https://jook.netlify.app/"
   },
 
 ];

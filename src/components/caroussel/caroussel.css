@@ -22,7 +22,6 @@ body {
   font-size: 1.1rem;
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: bold;
-  
 }
 
 .slider {
@@ -36,7 +35,7 @@ body {
 .slide {
   position: absolute;
   width: 450px;
-  height: 450px;
+  height: 4500px;
   position: absolute;
   transition: 0.6s ease;
   transform: translate(-100%, 0);
@@ -49,44 +48,12 @@ body {
   left: -70px;
   transform: translate(0, 0);
   z-index: 100;
-  opacity: 100%;
-  animation: 1s ease-out shake forwards;
   cursor: pointer;
 }
-
-
 
 .slide.last {
   transform: translate(100%, 0);
 }
-
-
-
-
-@keyframes shake {
- 
-  
-  0%,10%,20%,30%,40%,50% {   
-    transform: rotate(0deg);
-  }
-  5%,25%
-  
-   {
-     transform: rotate(1deg);
-  }
-
-  15%,
-  35%
-   {
-    transform: rotate(-1deg);
-  }
-
-  60% {
-   
-    transform: rotate(0deg);
-  }
-}
-
 
 /* ___________mediaQueries__________________ */
 
@@ -111,7 +78,6 @@ body {
   }
 
   .slide.active {
-
     width: 450px;
     height: 300px;
     top: -30px;
@@ -123,5 +89,4 @@ body {
   .slide.last {
     transform: translate(100%, 0);
   }
-
 }
