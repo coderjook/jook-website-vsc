@@ -3,6 +3,8 @@ import "./dots.css";
 
 export default function Dots() {
     return (
+        <>
+          <center><strong>"Connecting the dots"</strong></center>
         <div className='dots'>
             <div className="spinner">
                 <div class="cube"></div>
@@ -12,5 +14,7 @@ export default function Dots() {
                 <div class="blob move-blob"></div>            
             </div>
         </div>
+       </>
+    
     );
 }

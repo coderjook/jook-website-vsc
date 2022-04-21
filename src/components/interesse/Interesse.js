@@ -33,11 +33,11 @@ export default function Interesse() {
           </h2>
           <p>
             In mijn werk en vrije tijd vind ik het prachtig om op zoek te gaan naar mogelijke
-            verbanden tussen mensen, dingen en gebeurtenissen om ze vervolgens aan elkaar te verbinden.
-            Of dat nu systemen zijn om aan elkaar te koppelen voor gegevensuitwisseling, kindertekeningen gebruik voor 
-            een game in Scratch, of dat het de zoektocht is naar de verbinding tussen lichaam
+            verbanden tussen mensen, dingen en gebeurtenissen om ze vervolgens te verbinden.
+            Of dat nu systemen zijn om aan elkaar te koppelen voor gegevensuitwisseling, kindertekeningen zijn als basis voor
+            een Scratch project, of dat het de zoektocht is naar de verbinding tussen lichaam
             en geest....alles beweegt constant in relatie tot elkaar. {" "}
-            <strong>"Connecting the dots"</strong>
+            
           </p>
           <Dots />
         </div>
@@ -58,7 +58,7 @@ export default function Interesse() {
           <h3>Trainer Digitale vaardigheden - Coderjook</h3>
           <p>
             In mijn vrije tijd help ik kinderen hun digitale vaardigheden op een
-            creatieve manier in te zetten. Ik wil kinderen de enorme wereld van
+            creatieve manier in te zetten. Ik wil ze de enorme wereld van
             digitale mogelijkheden laten zien en deze verbinden aan hun tastbare
             wereld. Door te programmeren, leren kinderen hoe je zelf dingen kan bouwen en maken. Zo worden
             ze creatiever, leren ze verbanden leggen en kritisch nadenken.
